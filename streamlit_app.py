@@ -20,7 +20,10 @@ txt = st.text_area("Text to analyze")
 
 analyze(txt)
 
-ai_percent = 100 * (len(flags)**2.5) // len(txt.split())
+if txt == 0:
+    ai_percent = 0
+else:
+    ai_percent = 100 * (len(flags)**2.5) // len(txt.split())
 
 if st.button("Analyze text"):
     if len(flags) == 0:
