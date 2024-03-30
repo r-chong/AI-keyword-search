@@ -31,7 +31,7 @@ if st.button("Analyze text"):
         st.markdown(f":red[_An AI detector would flag this as **{ai_percent}% AI-generated content** ({100-ai_percent}% human-generated)_]")
 
 st.divider()
-st.caption(":red[**Educate yourself:**] AI detectors are flawed due to oversimplification of writing styles, often mistaking consistent human writing for AI-generated text. They can unfairly target non-native English speakers by misclassifying their textbook writing patterns as artificial. These tools also struggle with AI's inability to track its past outputs, leading to misidentification.\n\n:red[**Get This:**]\nEven OpenAI was not able to track GPT-generated text, with their classifier only correctly identifying 26% of AI-written text as 'likely AI-written' (https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text)")
+# st.caption(":red[**Educate yourself:**] AI detectors are flawed due to oversimplification of writing styles, often mistaking consistent human writing for AI-generated text. They can unfairly target non-native English speakers by misclassifying their textbook writing patterns as artificial. These tools also struggle with AI's inability to track its past outputs, leading to misidentification.\n\n:red[**Get This:**]\nEven OpenAI was not able to track GPT-generated text, with their classifier only correctly identifying 26% of AI-written text as 'likely AI-written' (https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text)")
 st.caption(":red[**Many so-called 'AI detectors'**] have resorted to flagging the mere usage of certain words as 'AI-generated'")
 st.caption("This tool is for students to catch these words beforehand so they don't get falsely flagged. :triangular_flag_on_post:")
 
